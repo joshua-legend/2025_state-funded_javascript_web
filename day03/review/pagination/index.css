@@ -1,0 +1,11 @@
+ul {
+  display: flex;
+}
+ul > li {
+  font-weight: bold;
+  padding: 10px;
+  transition: all 0.5s;
+}
+ul > li:hover {
+  background-color: #efefef;
+}

@@ -10,7 +10,6 @@ const getColor = () =>
 
 Array(100000)
   .fill(0)
-  .sort((a, b) => a - b)
   .forEach((v) => {
     const btn = document.createElement("button");
     const color = getColor();

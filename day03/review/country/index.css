@@ -1,0 +1,8 @@
+.countryList {
+  background-color: #efefef;
+  display: flex;
+  gap: 10px;
+}
+.countryList > li {
+  padding: 15px 10px;
+}
